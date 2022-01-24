@@ -32,16 +32,21 @@ sudo yum update + (senha)
 
 
 *Faça o download – site Kafka.apache.org (versão binary downloads: scala 2.11 – kafka-2.11.1.1.0.tgz)
+
 cd /opt/
+
 sudo wget (cópia do link do download)
 
 
 *Descompacte o arquivo: 
+
 sudo tar -xvf kafka-2.11.1.1.0.tgz
 
 
 *Mova o arquivo para diretório kafka: 
+
 sudo mv kafka-2.11.1.1.0 kafka
+
 
 *Remova o aquivo tgz do diretório: 
 
